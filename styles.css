@@ -1,0 +1,80 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #b69749; /* Updated header background color */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 1em;
+    margin: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Article styles */
+article {
+    margin-bottom: 1em;
+}
+
+article h2 {
+    color: #b69749; /* Updated article title color */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Travel section styling to prevent cutting off content */
+#travel {
+    max-height: 450px; /* Increase max height to fit more content */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light border for separation */
+    background-color: #fafafa; /* Light background for readability */
+}
+
+/* Ensure proper spacing and margin for articles inside travel section */
+#travel article {
+    margin-bottom: 20px; /* Space between articles */
+}
+
+#travel h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
